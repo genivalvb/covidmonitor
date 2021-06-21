@@ -1,1 +1,1 @@
-web: java -jar -Dspring.profiles.active=heroku target/covidmonitor-0.0.1-SNAPSHOT.jar
+web: java -jar -Dspring.profiles.active=production build/libs/covidmonitor-0.0.1-SNAPSHOT.jar
