@@ -1,1 +1,1 @@
-java -Dserver.port=$PORT $JAVA_OPTS -jar target/*.jar
+web: java -jar -Dspring.profiles.active=heroku build/libs/covidmonitor-0.0.1-SNAPSHOT.jar
